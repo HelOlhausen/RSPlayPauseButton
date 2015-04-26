@@ -14,6 +14,7 @@ typedef NS_ENUM(NSUInteger, RSPlayPauseButtonAnimationStyle) {
     RSPlayPauseButtonAnimationStyleSplitAndRotate
 };
 
+static const CGFloat kScale = 2.0;
 
 //
 //  Displays a  ⃝ with either the ► (play) or ❚❚ (pause) icon and nicely morphs between the two states.
